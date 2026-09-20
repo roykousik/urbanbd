@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Projects | Urban Interior — Interior Design & Living</title>
+  <meta name="description"
+    content="Browse our complete portfolio of interior design projects across Dhaka, Mymensingh, and nationwide. Filter by office, kitchen, home, living, dining, and work & study spaces." />
+  <meta property="og:title" content="All Projects | Urban Interior — Interior Design & Living" />
+  <meta property="og:description"
+    content="Bespoke interior transformations across office, kitchen, living, dining, and home spaces." />
+  <meta property="og:image" content="assets/projects/office-workspace/cover.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Playfair Display, Plus Jakarta Sans, Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=12" />
+</head>
+
+<body class="gallery-page">
+
+  <!-- =======================================================================
+       1. HEADER & NAVBAR
+       ======================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="gallery-container nav-inner">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="Urban Interior Home">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 4V13C5 16.866 8.134 20 12 20C15.866 20 19 16.866 19 13V4" stroke="#fef08a" stroke-width="2.2"
+              stroke-linecap="round" />
+            <line x1="12" y1="4" x2="12" y2="13" stroke="#fef08a" stroke-width="2.2" stroke-linecap="round" />
+            <circle cx="12" cy="16.5" r="1.4" fill="#fef08a" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name"><span class="brand-name-urban">URBAN</span> <span
+              class="brand-name-interior">INTERIOR</span></span>
+          <span class="brand-sub">Interior Design &amp; Living</span>
+        </div>
+      </a>
+
+      <!-- Center Navigation Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#hero" class="nav-link">Home</a>
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link active">Portfolio</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#process" class="nav-link">Process</a>
+        <a href="index.html#testimonials" class="nav-link">Testimonials</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+        <a href="tel:+8801820260730" class="nav-link nav-link-mobile-phone" aria-label="Call +880 1820-260730">📞 Call Us: +880 1820-260730</a>
+      </nav>
+
+      <!-- Right Header Actions (Phone Number Call Button) -->
+      <div class="header-actions">
+        <a href="tel:+8801820260730" class="btn-header-phone" aria-label="Call Us at +880 1820-260730">
+          <span class="phone-icon-wrap">
+            <svg class="header-phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+          </span>
+          <span class="header-phone-text">+880 1820-260730</span>
+        </a>
+
+        <!-- Mobile Hamburger Trigger -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =======================================================================
+       2. MAIN PAGE CONTENT
+       ======================================================================= -->
+  <main>
+    <!-- Page Header Hero -->
+    <section class="projects-page-hero">
+      <div class="gallery-container">
+        <span class="section-label-light">Our Portfolio</span>
+        <h1 class="section-heading-light">Every Space Tells a Story</h1>
+        <p class="section-desc-light">
+          Browse our curated portfolio of residential and commercial spaces designed with passion, elegance, and turnkey craftsmanship.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Catalog & Filter Section -->
+    <section class="projects-catalog-section" style="padding: 2.5rem 0 6rem;">
+      <div class="gallery-container">
+        <!-- Horizontal Scrollable Filter Bar -->
+        <div class="filter-bar-wrap">
+          <div class="filter-bar-container" id="filterBar" role="tablist" aria-label="Project Categories">
+            <button class="filter-chip active" data-category="all" role="tab" aria-selected="true" id="tab-all">All Projects</button>
+            <button class="filter-chip" data-category="office" role="tab" aria-selected="false" id="tab-office">Office</button>
+            <button class="filter-chip" data-category="kitchen" role="tab" aria-selected="false" id="tab-kitchen">Kitchen</button>
+            <button class="filter-chip" data-category="home" role="tab" aria-selected="false" id="tab-home">Home</button>
+            <button class="filter-chip" data-category="living" role="tab" aria-selected="false" id="tab-living">Living</button>
+            <button class="filter-chip" data-category="dining" role="tab" aria-selected="false" id="tab-dining">Dining</button>
+            <button class="filter-chip" data-category="work-study" role="tab" aria-selected="false" id="tab-work-study">Work &amp; Study</button>
+          </div>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-cards-grid" id="allProjectsGrid" aria-live="polite"></div>
+
+        <!-- Empty State (Shown when no items match category) -->
+        <div class="filter-empty-state" id="emptyState">
+          <p style="margin-bottom: 1.5rem; font-size: 1.15rem; color: #f8fafc;">No projects found in this category.</p>
+          <button class="filter-chip active" id="resetFilterBtn" style="padding: 0.8rem 2rem;">Show All Projects</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================================
+       3. SITE FOOTER (LUXURY 4-COLUMN)
+       ======================================================================= -->
+  <footer class="site-footer">
+    <div class="gallery-container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand & About -->
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" aria-label="Urban Interior Home">
+            <div class="brand-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 4V13C5 16.866 8.134 20 12 20C15.866 20 19 16.866 19 13V4" stroke="#fef08a" stroke-width="2.2"
+                  stroke-linecap="round" />
+                <line x1="12" y1="4" x2="12" y2="13" stroke="#fef08a" stroke-width="2.2" stroke-linecap="round" />
+                <circle cx="12" cy="16.5" r="1.4" fill="#fef08a" />
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name"><span class="brand-name-urban">URBAN</span> <span
+                  class="brand-name-interior">INTERIOR</span></span>
+              <span class="brand-sub">Interior Design &amp; Living</span>
+            </div>
+          </a>
+          <p class="footer-about-text">
+            Crafting inspiring residential and commercial spaces defined by timeless elegance, bespoke craftsmanship, and
+            turnkey precision across Bangladesh.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-link"
+              aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-link"
+              aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://wa.me/8801820260730" target="_blank" rel="noopener noreferrer" class="social-icon-link"
+              aria-label="WhatsApp" style="color: #25D366;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="projects.html">Portfolio</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Solutions -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Solutions</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html#services">Residential Design</a></li>
+            <li><a href="index.html#services">Commercial Design</a></li>
+            <li><a href="index.html#services">Space Planning</a></li>
+            <li><a href="index.html#services">Furniture &amp; Decor</a></li>
+            <li><a href="index.html#services">3D Visualization</a></li>
+            <li><a href="index.html#services">Turnkey Execution</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Studio Contacts -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Studio &amp; Contact</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <span>Call: <a href="tel:+8801820260730">+880 1820-260730</a></span>
+            </li>
+            <li class="footer-contact-item">
+              <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Email: <a href="mailto:urban.interior.bd.m@gmail.com">urban.interior.bd.m@gmail.com</a></span>
+            </li>
+            <li class="footer-contact-item">
+              <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>97/12 Patgudam, Kalibari Road, Mymensingh, BD</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg class="footer-contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>Sat – Thu: 9:00 AM – 8:00 PM<br><small style="color: rgba(255,255,255,0.45);">(Friday Closed)</small></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>© 2026 Urban Interior. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+        <button class="btn-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Back to top">
+          <span>Back to Top</span>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Widget -->
+  <a href="https://wa.me/8801820260730?text=Hello%20Urban%20Interior%20BD,%20I%20would%20like%20to%20inquire%20about%20your%20interior%20design%20services."
+    target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" style="right: 2rem; left: auto;" title="Chat on WhatsApp"
+    aria-label="Chat on WhatsApp">
+    <span class="floating-whatsapp-tooltip">Chat on WhatsApp (+880 1820-260730)</span>
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+    </svg>
+  </a>
+
+  <!-- Centralized Master Data & Gallery Page Logic -->
+  <script src="assets/js/projects-data.js"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      // Elements
+      const grid = document.getElementById('allProjectsGrid');
+      const emptyState = document.getElementById('emptyState');
+      const filterChips = document.querySelectorAll('.filter-chip[data-category]');
+      const resetBtn = document.getElementById('resetFilterBtn');
+      const siteHeader = document.getElementById('siteHeader');
+      const mobileBtn = document.getElementById('mobileMenuBtn');
+      const navLinks = document.getElementById('navLinks');
+
+      // 1. Header scroll effect
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          siteHeader && siteHeader.classList.add('scrolled');
+        } else {
+          siteHeader && siteHeader.classList.remove('scrolled');
+        }
+      }, { passive: true });
+
+      // 2. Mobile Menu Toggle
+      if (mobileBtn && navLinks) {
+        mobileBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          navLinks.classList.toggle('open');
+        });
+
+        document.addEventListener('click', (e) => {
+          if (navLinks.classList.contains('open') && !navLinks.contains(e.target) && e.target !== mobileBtn) {
+            navLinks.classList.remove('open');
+          }
+        });
+      }
+
+      // 3. Render Card Markup
+      function renderCard(p) {
+        return `
+          <a href="project.html?id=${encodeURIComponent(p.id)}" class="project-item-card" aria-label="${p.title}">
+            <div class="project-thumb-box">
+              <img src="${projectCover(p)}" alt="${p.title}" loading="lazy" onerror="this.onerror=null;this.src='assets/placeholder.png';">
+              <div class="card-gloss-sheen"></div>
+            </div>
+            <div class="project-meta-box">
+              <div class="project-meta-text">
+                <h3 class="project-title-name">${p.title}</h3>
+                <p class="project-desc-line">${p.description}</p>
+              </div>
+              <div class="project-arrow-btn" aria-label="View Project">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </div>
+          </a>
+        `;
+      }
+
+      // 4. Filter Functionality with URL synchronization
+      function applyFilter(category, updateUrl) {
+        if (typeof PROJECTS === 'undefined') return;
+
+        // Normalise category
+        const activeCat = (category || 'all').toLowerCase().trim();
+
+        // Update chips UI
+        const filterBarEl = document.getElementById('filterBar');
+        filterChips.forEach(chip => {
+          const chipCat = chip.getAttribute('data-category').toLowerCase();
+          const isActive = (chipCat === activeCat);
+          chip.classList.toggle('active', isActive);
+          chip.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          if (isActive && filterBarEl && filterBarEl.scrollWidth > filterBarEl.clientWidth) {
+            const chipLeft = chip.offsetLeft;
+            const chipWidth = chip.offsetWidth;
+            const barWidth = filterBarEl.clientWidth;
+            filterBarEl.scrollTo({
+              left: Math.max(0, chipLeft - (barWidth / 2) + (chipWidth / 2)),
+              behavior: 'smooth'
+            });
+          }
+        });
+
+        // Filter projects
+        const filtered = activeCat === 'all'
+          ? PROJECTS
+          : PROJECTS.filter(p => p.category.toLowerCase() === activeCat);
+
+        if (filtered.length > 0) {
+          grid.innerHTML = filtered.map(renderCard).join('');
+          grid.style.display = 'grid';
+          if (emptyState) emptyState.style.display = 'none';
+        } else {
+          grid.innerHTML = '';
+          grid.style.display = 'none';
+          if (emptyState) emptyState.style.display = 'block';
+        }
+
+        // Update URL query parameter without page reload
+        if (updateUrl) {
+          const url = new URL(window.location);
+          if (activeCat === 'all') {
+            url.searchParams.delete('category');
+          } else {
+            url.searchParams.set('category', activeCat);
+          }
+          window.history.replaceState({}, '', url.toString());
+        }
+      }
+
+      // 5. Event Listeners for Filter Chips
+      filterChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          const cat = chip.getAttribute('data-category');
+          applyFilter(cat, true);
+        });
+      });
+
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          applyFilter('all', true);
+        });
+      }
+
+      // 6. Initial Load from URL query param
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialCat = urlParams.get('category') || 'all';
+      applyFilter(initialCat, false);
+
+      // Handle browser back / forward navigation
+      window.addEventListener('popstate', () => {
+        const params = new URLSearchParams(window.location.search);
+        applyFilter(params.get('category') || 'all', false);
+      });
+    })();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- 3D Studio Display Monitor -->
+  <rect x="7" y="8" width="34" height="29" rx="3" fill="#ffffff" stroke="#1e293b" stroke-width="2.2" stroke-linejoin="round"/>
+  
+  <!-- Stand & Base -->
+  <path d="M21 37V42M27 37V42M16 42H32" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"/>
+  
+  <!-- 3D Spatial Coordinate Axis Rays -->
+  <line x1="24" y1="13" x2="24" y2="9.5" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2,1.5"/>
+  <line x1="17" y1="26.5" x2="12" y2="29.5" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2,1.5"/>
+  <line x1="31" y1="26.5" x2="36" y2="29.5" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2,1.5"/>
+  
+  <!-- Isometric 3D Volume Cube -->
+  <!-- Top Face (Warm Yellow) -->
+  <polygon points="24,13.5 31,17.5 24,21.5 17,17.5" fill="#f5c542" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+  <!-- Left Face (Coral Red) -->
+  <polygon points="17,17.5 24,21.5 24,30.5 17,26.5" fill="#e84141" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+  <!-- Right Face (Soft Sky Blue) -->
+  <polygon points="24,21.5 31,17.5 31,26.5 24,30.5" fill="#70a9dc" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+  
+  <!-- Ground Baseline -->
+  <line x1="5" y1="42" x2="43" y2="42" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+</svg>

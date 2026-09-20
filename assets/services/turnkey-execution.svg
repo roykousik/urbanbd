@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Completed Architecture House Silhouette -->
+  <path d="M20 14L32 5L43 14V39C43 40.1 42.1 41 41 41H26" fill="#ffffff" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Roof Eave Line -->
+  <path d="M17 16L32 5L45 16" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Upper Accent Window (Soft Sky Blue) -->
+  <rect x="28.5" y="14" width="7" height="7" rx="1.5" fill="#70a9dc" stroke="#1e293b" stroke-width="1.6"/>
+  
+  <!-- Quality Completed Checkmark Seal (Coral Red) -->
+  <circle cx="36" cy="28" r="5.5" fill="#e84141" stroke="#1e293b" stroke-width="1.8"/>
+  <path d="M33.8 28L35.4 29.8L38.5 26.5" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Turnkey Handover Key (Warm Golden Yellow) in Foreground -->
+  <!-- Key Head Ring -->
+  <circle cx="14" cy="30" r="7.5" fill="#f5c542" stroke="#1e293b" stroke-width="2.2"/>
+  <circle cx="14" cy="30" r="3.2" fill="#ffffff" stroke="#1e293b" stroke-width="1.8"/>
+  
+  <!-- Key Shaft -->
+  <path d="M21 30H31" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Key Teeth -->
+  <path d="M26.5 30V35M30.5 30V36" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"/>
+  
+  <!-- Ground Baseline -->
+  <line x1="5" y1="42" x2="43" y2="42" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+</svg>

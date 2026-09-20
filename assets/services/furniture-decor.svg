@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Standing Floor Lamp with Warm Yellow Shade (Left) -->
+  <line x1="7" y1="42" x2="13" y2="42" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="10" y1="16" x2="10" y2="42" stroke="#1e293b" stroke-width="1.8"/>
+  <polygon points="7,23 13,23 15,16 5,16" fill="#f5c542" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+  
+  <!-- Wall Art Frame with Coral Red Artwork (Above Sofa) -->
+  <rect x="21" y="9" width="16" height="11" rx="1.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.8"/>
+  <circle cx="28.5" cy="14" r="2.8" fill="#e84141"/>
+  <path d="M23 18.5L26.5 15L30 17.5L33.5 13.5L35.5 18.5Z" fill="#70a9dc"/>
+  
+  <!-- Modern Sofa with Soft Light Blue Cushions -->
+  <rect x="14" y="24" width="28" height="14" rx="3" fill="#70a9dc" stroke="#1e293b" stroke-width="2"/>
+  <line x1="28" y1="24" x2="28" y2="34" stroke="#1e293b" stroke-width="1.5"/>
+  
+  <!-- Left Armrest -->
+  <rect x="12" y="26.5" width="5.5" height="11.5" rx="2.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.8"/>
+  
+  <!-- Right Armrest -->
+  <rect x="38.5" y="26.5" width="5.5" height="11.5" rx="2.5" fill="#ffffff" stroke="#1e293b" stroke-width="1.8"/>
+  
+  <!-- Angled Sofa Legs -->
+  <line x1="17" y1="38" x2="15" y2="42" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="39" y1="38" x2="41" y2="42" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Ground Line -->
+  <line x1="5" y1="42" x2="43" y2="42" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+</svg>
